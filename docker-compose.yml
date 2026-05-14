@@ -1,0 +1,9 @@
+services:
+  app:
+    image: ghcr.io/by-cx/i-want-to-be-online-test2:latest
+    restart: unless-stopped
+    ports:
+      - "80:8080"
+    environment:
+      PORT: "8080"
+      HOSTNAME: "0.0.0.0"
