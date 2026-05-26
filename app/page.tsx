@@ -23,7 +23,7 @@ export default function Home() {
           Chci být{' '}
           <span className="relative inline-block">
             <span className="bg-gradient-to-r from-indigo-400 via-violet-400 to-pink-400 bg-clip-text text-transparent">
-              online v CICD na Githubu
+              online v CICD na Githubu ještě ještě ještě víc
             </span>
           </span>
           <br />
