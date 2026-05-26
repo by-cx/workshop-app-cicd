@@ -1,6 +1,6 @@
 services:
   app:
-    image: ghcr.io/by-cx/i-want-to-be-online-test2:latest
+    image: ghcr.io/by-cx/workshop-app-cicd:latest
     restart: unless-stopped
     ports:
       - "80:8080"
